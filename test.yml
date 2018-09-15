@@ -4,3 +4,7 @@
   - name: Test netaddr
     debug:
       msg: "{{ '192.168.166.1' | ipaddr('host') }}"
+  - name: Test netaddr
+    debug:
+      msg: "{{ '192.168.166.100' | ipaddr('host') }}"      
+      
